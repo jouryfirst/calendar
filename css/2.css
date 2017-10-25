@@ -1,0 +1,108 @@
+div,h3,p,dl,dt,dd{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-left:100px ;
+	border: solid 1px #0078D7;
+	padding: 5px;
+}
+ul,li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#box{
+	width: 406px;
+	border: solid 1px #DDDDDD;
+	padding: 30px 25px 20px 25px;
+	background: #555450;
+	margin: 30px auto;
+	position: relative;
+}
+#box h3{
+	font:43px/64px "微软雅黑";
+	color: #FFFFFF;
+}
+#box p{
+	color: #FFFFFF;
+}
+li{
+	float: left;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.time3{
+	height: 53px;
+	color: #dddddc;
+	margin: 15px 0;
+	font: 25px/53px "微软雅黑";
+	position: relative;
+}
+.time3 strong{
+	float: left;
+	font-weight: normal;
+}
+.time3 div{
+	position: absolute;
+	top: 10px;
+}
+.btn{
+	width: 30px;
+}
+.up{
+	right: 73px;
+}
+.down{
+	right: 14px;
+}
+#box ul,.number{
+	font-size: 0;
+}
+#box ul li,.number span{
+	width: 58px;
+	height: 51px;
+	font: 22px/51px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+}
+.number span.color{
+	color: #8d8c89;
+}
+.number span.active{
+	background: #0078d7;
+}
+#more{
+	padding-top: 20px;
+	color: #FFFFFF;
+	display: none;
+}
+#more dd{
+	margin-bottom: 13px;
+}
+#more .input{
+	width: 60px;
+	margin-right: 14px;
+	margin-left: 14px;
+}
+#more input{
+	margin-left: 20px;
+}
+#more dd strong{
+	font-size: 32px;
+	margin-left: 16px;
+	margin-right:16px;
+}
+#xd img{
+	position: absolute;
+	top: 30px;
+	left:370px;
+	width: 250px;
+}
